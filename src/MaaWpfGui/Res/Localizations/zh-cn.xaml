@@ -1304,7 +1304,7 @@ C:\\leidian\\LDPlayer9
     <system:String x:Key="ErrorSolutionMoveMaaExeOutOfFolder">请勿直接移动 MAA.exe 文件。若需更改软件位置，请移动整个文件夹；或右键 MAA.exe 创建快捷方式，然后将快捷方式移动到其他位置。</system:String>
     <system:String x:Key="ErrorSolutionCrash">请参考文档: 常见问题 - 闪退 进行操作。</system:String>
     <system:String x:Key="ErrorSolutionUpdatePackageExtractionFailed">解压更新包失败。建议先尝试重新启动 MAA.exe，如仍无法解决，请重启电脑后再试。请勿手动解压更新包，以免遗漏必要的文件删除操作。</system:String>
-    <system:String x:Key="ErrorSolutionReplaceAdb">请 ｢关闭模拟器与 ADB｣ 或 ｢重启电脑后在未开启模拟器的情况下使用管理员权限打开 MAA｣ 后进行操作。</system:String>
+    <system:String x:Key="ErrorSolutionReplaceAdb">请关闭模拟器与 ADB，或重启电脑后在未开启模拟器的情况下使用管理员权限打开 MAA，然后再进行操作。</system:String>
     <system:String x:Key="ErrorSolutionFailedToMove">文件被占用，请重启电脑后重试。</system:String>
     <system:String x:Key="ErrorSolutionDesktopCompositionDisabled">这通常是显卡驱动瞬时异常导致 DWM 桌面组合不可用，程序将尝试继续运行。如果界面显示异常，请手动重启 MAA；并建议检查并更新显卡驱动。</system:String>
     <system:String x:Key="ErrorSolutionDragDrop">这通常是在拖拽操作进行过程中重复拖动导致的偶发崩溃，不影响功能，可忽略。如频繁出现，请避免在拖拽过程中重复操作。</system:String>
@@ -1337,7 +1337,7 @@ C:\\leidian\\LDPlayer9
     <system:String x:Key="AdbDownloadFailedDesc">请手动进行操作（将 adb.exe 重命名后替换上方模拟器自带 ADB 即可）</system:String>
     <system:String x:Key="SuccessfullyReplacedAdb">成功替换 ADB 文件</system:String>
     <system:String x:Key="FailedToReplaceAdbAndUseLocal">替换 ADB 失败</system:String>
-    <system:String x:Key="FailedToReplaceAdbAndUseLocalDesc">已使用本地 ADB 进行连接。如需再次尝试，请重新检测连接后 ｢关闭模拟器与 ADB｣ 或 ｢重启电脑后在未开启模拟器的情况下使用管理员权限打开 MAA｣ 后进行操作。</system:String>
+    <system:String x:Key="FailedToReplaceAdbAndUseLocalDesc">已使用本地 ADB 进行连接。如需再次尝试，请重新检测连接后关闭模拟器与 ADB，或重启电脑后在未开启模拟器的情况下使用管理员权限打开 MAA，然后再进行操作。</system:String>
     <system:String x:Key="InitializationError">初始化错误！</system:String>
     <system:String x:Key="ResolutionNotSupported">模拟器分辨率不支持，请设置为 720p 或更高，且为 16:9 比例，推荐使用 1280x720 或 1920x1080</system:String>
     <system:String x:Key="ResolutionNotSupportedCurrentResolution">当前分辨率：{0}x{1}</system:String>
@@ -1672,7 +1672,7 @@ C:\\leidian\\LDPlayer9
     <system:String x:Key="TryToStartEmulator">正在尝试启动模拟器</system:String>
     <system:String x:Key="RestartAdb">正在尝试重启 ADB Server</system:String>
     <system:String x:Key="HardRestartAdb">正在尝试关闭并重启 ADB 进程</system:String>
-    <system:String x:Key="CheckSettings">请 ｢检查连接设置｣ → ｢尝试重启模拟器与 ADB｣ → ｢重启电脑｣</system:String>
+    <system:String x:Key="CheckSettings">请前往 ｢设置 - 连接设置｣，重新勾选 ｢自动检测连接｣ → 尝试重启模拟器与 ADB → 重启电脑</system:String>
     <system:String x:Key="AttachWindowNotFound">未找到窗口 "{0}"，请确保游戏已启动</system:String>
     <system:String x:Key="AttachWindowMultipleFound">找到 {0} 个 "{1}" 窗口，将使用第一个</system:String>
     <system:String x:Key="AttachWindowFound">找到窗口 "{0}"</system:String>
